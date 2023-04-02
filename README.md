@@ -22,7 +22,6 @@ Mven-App
 
 #### cd serevr 
 #### npm install
-#### stre the server: npm run dev
 
 
 ## Configuration
