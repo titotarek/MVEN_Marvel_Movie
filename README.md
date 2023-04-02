@@ -23,3 +23,13 @@ Mven-App
 #### cd serevr 
 #### npm install
 #### stre the server: npm run dev
+
+
+## Configuration
+
+#### Create a .env file in the root directory of the project.
+
+#### Add the following environment variables to the .env file:
+
+##### DB_URI=your-mongodb-uri
+##### PORT=1000
