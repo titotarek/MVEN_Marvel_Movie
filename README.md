@@ -9,5 +9,17 @@ Mven-App
 ## Getting Started
 #### To get started with the project, you can follow these steps:
 
+
+## Installation
+
+#### Clone the repository to your local machine:
+
 ## Prerequisites
 #### Node.js v14.0 or later
+
+
+## Install the dependencies:
+
+#### cd serevr 
+#### npm install
+#### stre the server: npm run dev
