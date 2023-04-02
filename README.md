@@ -31,5 +31,36 @@ Mven-App
 
 #### Add the following environment variables to the .env file:
 
-##### DB_URI=your-mongodb-uri
 ##### PORT=1000
+
+##### DB_URI=your-mongodb-uri
+
+
+## Running the Server
+
+#### npm run dev
+
+## Running the Client
+
+#### cd client && cd client
+
+## Install the dependencies:
+
+#### npm insatll
+
+## start the client:
+
+#### npm run serve
+
+## Open your web browser and navigate to http://localhost:8080.
+
+### You should see the homepage of the client.
+
+
+## Usage
+### The client allows you to perform the following actions:
+
+#### View a list of movie posts
+#### Create a new movie post
+#### Edit an existing movie post
+#### Delete a movie post
