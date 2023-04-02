@@ -1,0 +1,16 @@
+.mood  img {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin-right: 100px;
+      }
+      
+      .mood  .dark-mode {
+	background-color: #222222;
+	color: #ffffff;
+      }
+      
+      .mood   .light-mode {
+	background-color: #ffffff;
+	color: #222222;
+      }

@@ -1,0 +1,102 @@
+/* Start Global Rules */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	/* Stat of the Element Color */
+	--primary-color: #eb5440;
+	--secondary-color: #4a4b4c;
+	--tertiary-color1: #e8e8e8;
+	--tertiary-color2: #c3c3c3;
+	--background1: #f6f6f6;
+	--background2: #ffffff;
+	/* End of the Element Color */
+
+	/* Start of the Text Color */
+	/* --secondary-text-color: #c3c3c3; */
+	--primary-text-color: #000000;
+	--secondary-text-color: #4a4b4c;
+	--hyperlink-text-color: #067bc2;
+	/* End of the Text Color */
+
+	/*  Star FontSize  for desktop, */
+	--Header1-font: 32px;
+	--Header2-font: 22px;
+	--header-active--menu-font: 18px;
+	--btn-font: 18px;
+	/* --input-filed-font:14px; */
+	--input-field-title: 14px;
+	/* End  Font Size  for desktop, */
+
+	/* Start  Font Size  for Mobil, */
+	--Header1-mobil-font: 18px;
+	--Header2-mobil-font: 14px;
+	--btn-mobil-font: 12px;
+	--input-filed-title-mobile: 12px;
+	/* End  Font Size  for Mobil, */
+
+	--section-padding: 50px;
+}
+
+body {
+	background-color: var(--background1);
+	height: 90vh;
+	font-family: Montserrat;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+/* Small */
+@media (min-width: 320px) {
+	.container {
+		width: 460px;
+	}
+}
+@media (max-width: 767px) {
+	.container {
+		width: 750px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+/* Medium */
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+/* Large */
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+
+/* End Global Rules */

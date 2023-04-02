@@ -1,0 +1,39 @@
+.footer {
+	background: linear-gradient(to left, #18479d 10%, #507ccc);
+	width: 100%;
+	margin-top: 100px;
+	padding-bottom: 100px;
+	padding-top: 40px;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+ul li a {
+	display: inline-block;
+	color: white;
+	padding-top: 10px;
+	font-size: 16px;
+}
+
+ul li a:hover {
+	color: #eb3c3f;
+}
+
+ul .footer-social-icon {
+	display: flex;
+	gap: 10px;
+}
+
+ul .footer-social-icon img {
+	margin-top: 10px;
+	width: 40px;
+	filter: brightness(0) invert(1);
+}
+
+ul .footer-social-icon a img:hover {
+	filter: invert(45%) sepia(70%) saturate(4440%) hue-rotate(347deg)		brightness(114%) contrast(83%);
+	-webkit-filter: invert(45%) sepia(70%) saturate(4440%) hue-rotate(347deg)		brightness(114%) contrast(83%);
+}

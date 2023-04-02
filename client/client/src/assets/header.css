@@ -1,0 +1,24 @@
+.header {
+	width: 100%;
+	height: 140px;
+	background: linear-gradient(to left, #062f75 10%, #eb3c3f);
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* .container .header-link{
+	display: flex;
+} */
+
+.header .container > a {
+	text-align: center;
+	color: white;
+	font-size: 32px;
+	padding-left: 100px;
+}
+.header .container .active {
+	color: black;
+}
